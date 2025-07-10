@@ -1,0 +1,28 @@
+Simple Steps for the Project:
+
+create mvc .net core project
+create table clients and insert random data
+add new package to sql connection
+add System.Data.SqlClient from NugetPackages
+Clients Folder for starting the work
+
+query for the clients table: 
+- create table clients ....
+- insert into clients .....
+
+
+Adding Typescript to Project
+
+In cmd terminal:
+
+1) npm install typescript --save-dev
+
+2) TypeScript (.ts) must be compiled to JavaScript (.js) before the browser can use it.
+    in cmd: npx tsc
+
+3) In Razor page (Index.cshtml):
+   	add it in path: wwwroot/js/client-index.js
+	add this small script above
+ 	@section Scripts {
+    		<script src="~/js/client-index.js"></script>
+	}
